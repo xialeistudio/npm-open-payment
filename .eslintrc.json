@@ -1,0 +1,23 @@
+{
+  "extends": "airbnb-base",
+  "env": {
+    "node": true,
+    "es6": false
+  },
+  "globals": {
+    "describe": true,
+    "it": true
+  },
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "plugins": [
+    "import"
+  ],
+  "rules": {
+    "strict": [
+      0,
+      "global"
+    ]
+  }
+}
